@@ -10,7 +10,7 @@ def home():
 
 @app.route("/resume")
 def resume():
-    return send_from_directory(BASE_DIR / "resume", "Talal_Siddiqui_Resume_Updated.pdf", as_attachment=False)
+    return send_from_directory(BASE_DIR / "resume", "Talal_Siddiqui_Resume_Upd.pdf", as_attachment=False)
 
 @app.route("/certificate")
 def certificate():
